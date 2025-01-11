@@ -6,14 +6,14 @@ import React from 'react';
 export default function Header() {
   return (
     <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
-      <div>
+      {/* <div>
         <Image
           src={assets.profile_img}
           alt="Profile Image"
           className="rounded-full w-32"
         />
-      </div>
-      <h3 className="flex gap-2 items-end text-xl md:text-2xl mb-3 font-ovo">
+      </div> */}
+      <h3 className="flex gap-2 items-center text-xl md:text-2xl mb-3 font-ovo">
         Hi! I&apos;m Islam Aladwy{' '}
         <Image src={assets.hand_icon} alt="" className="w-6" />
       </h3>
@@ -21,11 +21,7 @@ export default function Header() {
         frontend web developer based in Alexandria.
       </h1>
       <p>
-        Passionate Front-End Developer with a strong foundation in HTML, CSS,
-        JavaScript, React.js and Next.js. Adept at creating responsive and
-        user-friendly web applications with a keen eye for design and
-        performance optimization. Excited to leverage my technical expertise and
-        problem-solving skills to contribute to impactful web solutions.
+      A Knowledge admirer, creative thinker, and fast learner with excellent reputation for resolving problems.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 mt-4">
         <Link
