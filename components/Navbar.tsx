@@ -5,7 +5,10 @@ import Link from 'next/link';
 import React, { useRef } from 'react';
 
 export default function Navbar() {
-  const sideMenuRef = useRef();
+  // using a ref to target the side menu without re-rendering the component
+  const sideMenuRef = useRef(null);
+
+
   const openSideMenu = () => {
     sideMenuRef.current.style.transform = 'translateX(-16rem)';
   };
@@ -77,7 +80,7 @@ export default function Navbar() {
           ref={sideMenuRef}
           className="md:hidden flex flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 bg-gray-50 transition duration-500"
         >
-          <div className="absolute top-6 right-6" onClick={closeSideMenu}>
+          <div className="absolute top-8 right-5" onClick={closeSideMenu}>
             <Image
               src={assets.close_black}
               alt=""
