@@ -69,7 +69,7 @@ export default function Navbar() {
           </li> */}
           <li>
             <Link className="font-ovo" href="#work">
-              My Work
+              Projects
             </Link>
           </li>
           <li>
