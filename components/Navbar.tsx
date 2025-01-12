@@ -36,8 +36,8 @@ export default function Navbar() {
       </div>
 
       <nav
-        className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-2 flex justify-between items-center z-50 ${
-          isScroll ? 'bg-white bg-opacity-50 backdrop-blur-lg shadow-sm' : ''
+        className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-2 flex justify-between items-center z-50 bg-white bg-opacity-50 backdrop-blur-lg shadow-sm ${
+          isScroll ? '' : ''
         }`}
       >
         <Link href="#top">
@@ -97,7 +97,7 @@ export default function Navbar() {
 
         <ul
           ref={sideMenuRef}
-          className="md:hidden flex flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 bg-gray-50 transition duration-500"
+          className={`md:hidden flex flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom--1 w-64 z-50 bg-gray-50 transition duration-500`}
         >
           <div className="absolute top-8 right-5" onClick={closeSideMenu}>
             <Image
