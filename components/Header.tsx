@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
+    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
       {/* <div>
         <Image
           src={assets.profile_img}
@@ -21,7 +21,8 @@ export default function Header() {
         frontend web developer based in Alexandria.
       </h1>
       <p>
-      A Knowledge admirer, creative thinker, and fast learner with excellent reputation for resolving problems.
+        A Knowledge admirer, creative thinker, and fast learner with excellent
+        reputation for resolving problems.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 mt-4">
         <Link

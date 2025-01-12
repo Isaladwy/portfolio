@@ -86,24 +86,28 @@ export const assets = {
 
 export const workData = [
   {
-    title: 'Frontend project',
-    description: 'Web Design',
+    title: 'The Wild Oasis Customers',
+    description: 'A luxurious hotel reservation platform',
     bgImage: '/work-1.png',
+    link: 'https://the-wild-oasis-website-orpin-eight.vercel.app/',
   },
   {
-    title: 'Geo based app',
-    description: 'Mobile App',
+    title: 'The Wild Oasis Employees',
+    description: 'The Back-end of the hotel that manages cabins & reservations',
     bgImage: '/work-2.png',
+    link: 'https://the-wild-oasis-tau-sooty.vercel.app/',
   },
   {
-    title: 'Photography site',
-    description: 'Web Design',
+    title: 'Fast React Pizza',
+    description: 'A modern and responsive pizza ordering web application',
     bgImage: '/work-3.png',
+    link: 'https://fast-react-pizza-six-kappa.vercel.app/',
   },
   {
-    title: 'UI/UX designing',
-    description: 'UI/UX Design',
+    title: 'World Wise',
+    description: 'An innovative web application to explore the world',
     bgImage: '/work-4.png',
+    link: 'https://worldwise-seven-liard.vercel.app/',
   },
 ];
 

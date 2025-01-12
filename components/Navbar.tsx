@@ -62,11 +62,11 @@ export default function Navbar() {
               About me
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="font-ovo" href="#services">
               Services
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link className="font-ovo" href="#work">
               My Work
@@ -97,7 +97,7 @@ export default function Navbar() {
 
         <ul
           ref={sideMenuRef}
-          className={`md:hidden flex flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom--1 w-64 z-50 bg-gray-50 transition duration-500`}
+          className={`md:hidden flex flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 bg-gray-50 transition duration-500 h-screen`}
         >
           <div className="absolute top-8 right-5" onClick={closeSideMenu}>
             <Image
@@ -116,11 +116,11 @@ export default function Navbar() {
               About me
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="font-ovo" onClick={closeSideMenu} href="#services">
               Services
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link className="font-ovo" onClick={closeSideMenu} href="#work">
               My Work
