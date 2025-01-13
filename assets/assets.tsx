@@ -170,3 +170,9 @@ export const toolsData = [
   assets.photoshop,
   assets.figma,
 ];
+
+
+export const web3forms = {
+  key: `a66272f4-3dcb-4b77-be3d-2a4a0a8d4cd2`,
+  url: `https://api.web3forms.com/submit`,
+};
