@@ -39,6 +39,7 @@ import chatgpt from './chatgpt.png';
 import github from './github.png';
 import supabase from './supabase.png';
 import photoshop from './photoshop.png';
+import linkedin from './linkedin.png';
 
 export const assets = {
   user_image,
@@ -82,6 +83,7 @@ export const assets = {
   github,
   supabase,
   photoshop,
+  linkedin,
 };
 
 export const workData = [
