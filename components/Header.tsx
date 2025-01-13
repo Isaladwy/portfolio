@@ -27,7 +27,7 @@ export default function Header() {
       <div className="flex flex-col sm:flex-row gap-4 mt-4">
         <Link
           href="#contact"
-          className="px-10 py-3 border border-white rounded-full flex items-center gap-2 bg-black text-white"
+          className="px-10 py-3 border border-white rounded-full flex items-center gap-2 bg-black text-white dark:bg-transparent "
         >
           Contact me{' '}
           <Image
@@ -38,8 +38,9 @@ export default function Header() {
         </Link>
         <Link
           href="/Islam_Aladwy_Resume.pdf"
+          target='_blank'
           download
-          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
+          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:bg-white dark:text-black"
         >
           My resume{' '}
           <Image

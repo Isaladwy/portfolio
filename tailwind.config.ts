@@ -11,7 +11,8 @@ export default {
       colors: {
         lightHover: '#F5F5F5',
         darkHover: '#2b2b2b',
-        darkTheme: '#1a1a1a',
+        darkSideNav: '#171717',
+        darkTheme: '#0a0a0a',
       },
       fontFamily: {
         ovo: ['Ovo', 'sans-serif'],
