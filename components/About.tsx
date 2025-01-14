@@ -50,7 +50,7 @@ export default function About({
           transition={{ duration: 0.6, delay: 0.8 }}
           className="flex-1 text-center"
         >
-          <p className="mb-10 px-2 max-w-2xl font-ovo">
+          <p className="mb-10  max-w-2xl font-ovo">
             I am a Passionate Front-End Developer with a strong foundation in
             HTML, CSS, JavaScript, React.js and Next.js. Adept at creating
             responsive and user-friendly web applications with a keen eye for
@@ -62,7 +62,7 @@ export default function About({
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
-            className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl px-1"
+            className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl "
           >
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
@@ -96,7 +96,7 @@ export default function About({
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5, delay: 0.6 }}
-            className="flex items-center justify-center gap-2 sm:gap-5"
+            className=" grid grid-cols-2 justify-items-center sm:flex items-center justify-center gap-2 sm:gap-5"
           >
             {toolsData.map((tool, index) => (
               <motion.li
