@@ -40,6 +40,7 @@ import github from './github.png';
 import supabase from './supabase.png';
 import photoshop from './photoshop.png';
 import linkedin from './linkedin.png';
+import copilot from './copilot.png';
 
 export const assets = {
   user_image,
@@ -84,6 +85,7 @@ export const assets = {
   supabase,
   photoshop,
   linkedin,
+  copilot,
 };
 
 export const workData = [
@@ -166,13 +168,13 @@ export const infoList = [
 export const toolsData = [
   assets.vscode,
   assets.chatgpt,
+  assets.copilot,
   assets.github,
   assets.supabase,
   assets.git,
   assets.photoshop,
   assets.figma,
 ];
-
 
 export const web3forms = {
   key: `a66272f4-3dcb-4b77-be3d-2a4a0a8d4cd2`,

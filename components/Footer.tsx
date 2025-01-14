@@ -14,7 +14,7 @@ export default function Footer() {
           target="_blank"
           className="flex w-max items-center gap-2 mx-auto"
         >
-          <Image src={assets.mail_icon} alt="" className="w-6 " />
+          <Image src={assets.mail_icon} alt="" className="w-8 " />
           Isaladwy@gmail.com
         </Link>
       </div>

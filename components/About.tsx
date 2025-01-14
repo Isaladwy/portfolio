@@ -2,7 +2,9 @@ import { infoList, toolsData } from '@/assets/assets';
 import Image from 'next/image';
 import React from 'react';
 
-export default function About() {
+export default function About({
+  isDarkMode,
+}: Readonly<{ isDarkMode: boolean }>) {
   return (
     <div id="about" className=" w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-ovo">Introduction</h4>
@@ -28,16 +30,24 @@ export default function About() {
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl px-1">
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <li
-                className="border-[0.5px] border-gray-400 rounded-xl flex flex-col p-6 cursor-pointer items-center hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black"
+                className="border-[0.5px] border-gray-400 rounded-xl flex flex-col p-6 cursor-pointer items-center hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:bg-darkSideNav dark:hover:shadow-white "
                 key={index}
               >
-                <Image className="m-3 w-7" src={icon} alt={title} />
-                <h3 className="my-3 font-semibold text-gray-700">{title}</h3>
-                <p className="text-gray-600 text-sm">{description}</p>
+                <Image
+                  className="m-3 w-7"
+                  src={isDarkMode ? iconDark : icon}
+                  alt={title}
+                />
+                <h3 className="dark:text-white my-3 font-semibold text-gray-700">
+                  {title}
+                </h3>
+                <p className="dark:text-white/80 text-gray-600 text-sm">
+                  {description}
+                </p>
               </li>
             ))}
           </ul>
-          <h4 className="my-6 text-gray-700 font-ovo">Tools I use</h4>
+          <h4 className="my-6 dark:text-white text-gray-700 font-ovo">Tools I use</h4>
           <ul className="flex items-center justify-center gap-2 sm:gap-5">
             {toolsData.map((tool, index) => (
               <li
