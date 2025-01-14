@@ -50,14 +50,14 @@ export default function Contact() {
             required
             name="name"
             placeholder="Enter your name"
-            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
+            className=" flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkSideNav dark:border-white/90"
           />
           <input
             type="email"
             required
             name="email"
             placeholder="Enter your email"
-            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
+            className="dark:bg-darkSideNav dark:border-white/90 flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
           />
         </div>
         <textarea
@@ -65,13 +65,13 @@ export default function Contact() {
           name="message"
           placeholder="Enter your message"
           required
-          className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6"
+          className="dark:bg-darkSideNav dark:border-white/90 w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6"
         ></textarea>
 
         <button
           type="submit"
           {...(result && { disabled: true })}
-          className="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500"
+          className="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkSideNav "
         >
           {result ? (
             <>

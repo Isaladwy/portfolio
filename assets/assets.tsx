@@ -168,8 +168,8 @@ export const infoList = [
 export const toolsData = [
   assets.vscode,
   assets.chatgpt,
-  assets.copilot,
   assets.github,
+  assets.copilot,
   assets.supabase,
   assets.git,
   assets.photoshop,
