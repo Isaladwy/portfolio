@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 
 export default function Header() {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+    <div className="w-11/12 max-w-3xl text-center mx-auto mb-20 pb-10 pt-40 flex flex-col items-center justify-center gap-4">
       {/* <div>
         <Image
           src={assets.profile_img}
@@ -15,7 +15,7 @@ export default function Header() {
       </div> */}
       <motion.h3
         initial={{ opacity: 0, y: -20 }}
-        whileInView={{ opacity: 1,  y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
         className="flex gap-2 items-center text-xl md:text-2xl mb-3 font-ovo"
       >

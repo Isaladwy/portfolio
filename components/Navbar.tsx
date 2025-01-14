@@ -123,6 +123,8 @@ export default function Navbar({ isDarkMode, setIsDarkMode }: NavbarProps) {
 
         {/* Mobile Menu */}
 
+
+
         <ul
           ref={sideMenuRef}
           className={`md:hidden flex flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 bg-gray-50 transition duration-500 h-screen dark:bg-darkSideNav dark:text-white`}
