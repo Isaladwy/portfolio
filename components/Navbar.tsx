@@ -15,10 +15,16 @@ export default function Navbar({ isDarkMode, setIsDarkMode }: NavbarProps) {
   const [isScroll, setIsScroll] = useState(false);
 
   const openSideMenu = () => {
-    sideMenuRef.current.style.transform = 'translateX(-16rem)';
+    if (sideMenuRef.current) {
+      (sideMenuRef.current as HTMLElement).style.transform =
+        'translateX(-16rem)';
+    }
   };
   const closeSideMenu = () => {
-    sideMenuRef.current.style.transform = 'translateX(16rem)';
+    if (sideMenuRef.current) {
+      (sideMenuRef.current as HTMLElement).style.transform =
+        'translateX(16rem)';
+    }
   };
 
   useEffect(() => {

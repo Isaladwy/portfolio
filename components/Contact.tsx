@@ -7,10 +7,10 @@ import { motion } from 'motion/react';
 export default function Contact() {
   const [result, setResult] = useState('');
 
-  const onSubmit = async (e) => {
+  const onSubmit = async (e:React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setResult('Sending....');
-    const formData = new FormData(e.target);
+    const formData = new FormData(e.target as HTMLFormElement);
 
     formData.append('access_key', web3forms.key);
 
@@ -23,7 +23,7 @@ export default function Contact() {
 
     if (data.success) {
       setResult('Form Submitted Successfully');
-      e.target.reset();
+      (e.target as HTMLFormElement).reset();
     } else {
       console.log('Error', data);
       setResult(data.message);
