@@ -161,7 +161,7 @@ export const infoList = [
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: 'Projects',
-    description: 'Built more than 5 projects',
+    description: 'Built more than 20 projects',
   },
 ];
 
