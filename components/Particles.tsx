@@ -40,7 +40,7 @@ export default function Particle({ isDarkMode }: ParticleProps) {
                 },
                 onHover: {
                   enable: true,
-                  mode: 'grab',
+                  mode: 'repulse',
                 },
                 resize: {
                   enable: true,
@@ -55,16 +55,20 @@ export default function Particle({ isDarkMode }: ParticleProps) {
                 },
                 repulse: {
                   distance: 100,
-                  duration: 0.4,
+                  duration: 1,
                 },
               },
             },
             particles: {
               color: {
-                value: isDarkMode ? '#fff' : '#000',
+                value: isDarkMode
+                  ? 'rgba(255, 255, 255, 0.5)'
+                  : 'rgba(0, 0, 0, 0.5)',
               },
               links: {
-                color: isDarkMode ? '#fff' : '#000',
+                color: isDarkMode
+                  ? 'rgba(255, 255, 255, 0.5)'
+                  : 'rgba(0, 0, 0, 0.5)',
                 distance: 150,
                 enable: true,
                 opacity: 0.5,
