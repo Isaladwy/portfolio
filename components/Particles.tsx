@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
 import Particles, { initParticlesEngine } from '@tsparticles/react';
+import { useEffect, useState } from 'react';
 import { loadFull } from 'tsparticles';
 
 interface ParticleProps {
