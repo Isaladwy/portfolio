@@ -26,3 +26,18 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Hide scrollbar for all browsers */
+.w-auto.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+.w-auto.overflow-x-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.w-auto.overflow-x-hidden {
+  scrollbar-width: none;
+}

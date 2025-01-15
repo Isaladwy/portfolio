@@ -23,9 +23,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth w-auto overflow-x-hidden ">
+    <html lang="en" className="scroll-smooth w-auto overflow-x-hidden " >
       <body
-        className={`${outfitFont.className} ${ovoFont.className} antialiased leading-8 w-auto overflow-x-hidden dark:bg-darkTheme dark:text-white`}
+        className={`${outfitFont.className} ${ovoFont.className} antialiased leading-8 w-auto overflow-x-hidden dark:bg-darkTheme dark:text-white`} 
       >
         {children}
       </body>
