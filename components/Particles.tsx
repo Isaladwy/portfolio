@@ -47,6 +47,9 @@ export default function Particle({ isDarkMode }: ParticleProps) {
                 },
               },
               modes: {
+                grab: {
+                  distance: 200,
+                },
                 push: {
                   quantity: 4,
                 },
