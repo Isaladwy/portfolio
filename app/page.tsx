@@ -4,6 +4,7 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Navbar from '@/components/Navbar';
+import Particle from '@/components/Particles';
 import Projects from '@/components/Projects';
 import { useEffect, useState } from 'react';
 
@@ -33,6 +34,7 @@ export default function Home() {
   }, [isDarkMode]);
   return (
     <>
+      <Particle isDarkMode={isDarkMode} />
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Header />
       <About isDarkMode={isDarkMode} />
