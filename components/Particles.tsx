@@ -83,7 +83,7 @@ export default function Particle({ isDarkMode }: ParticleProps) {
               number: {
                 density: {
                   enable: true,
-                  area: 1000,
+                  area_value: 1000,
                 },
                 value: 200,
               },
