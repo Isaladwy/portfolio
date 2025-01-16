@@ -17,7 +17,7 @@ export default function Header() {
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
-        className="flex gap-2 items-center text-xl md:text-2xl mb-3 font-ovo"
+        className="flex gap-2 items-center text-xl md:text-2xl mb-3 font-ovo "
       >
         Hi! I&apos;m Islam Aladwy{' '}
         <Image src={assets.hand_icon} alt="" className="w-6" />
