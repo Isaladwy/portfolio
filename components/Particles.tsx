@@ -64,7 +64,6 @@ export default function Particle({ isDarkMode }: ParticleProps) {
                 value: isDarkMode
                   ? 'rgba(255, 255, 255, 0.5)'
                   : 'rgba(0, 0, 0, 0.5)',
-                  
               },
               links: {
                 color: isDarkMode
@@ -72,7 +71,7 @@ export default function Particle({ isDarkMode }: ParticleProps) {
                   : 'rgba(0, 0, 0, 0.5)',
                 distance: 150,
                 enable: true,
-                opacity: 0.1,
+                opacity: 0.15,
                 width: 1,
               },
               move: {
@@ -93,7 +92,7 @@ export default function Particle({ isDarkMode }: ParticleProps) {
                 value: 200,
               },
               opacity: {
-                value: 0.1,
+                value: 0.13,
               },
               shape: {
                 type: 'circle',

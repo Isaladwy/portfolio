@@ -45,7 +45,7 @@ export default function Contact() {
         transition={{ duration: 0.5, delay: 0.3 }}
         className="text-center mb-2 text-lg font-ovo"
       >
-        Connect with me
+        Get in touch
       </motion.h4>
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
@@ -53,7 +53,7 @@ export default function Contact() {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-center text-5xl font-ovo"
       >
-        Get in touch
+        Contact me
       </motion.h2>
 
       <motion.p
