@@ -51,12 +51,13 @@ export default function About({
           className="flex-1 text-center"
         >
           <p className="mb-10  max-w-2xl font-ovo">
-            I am a Passionate Front-End Developer with a strong foundation in
-            HTML, CSS, JavaScript, React.js and Next.js. Adept at creating
-            responsive and user-friendly web applications with a keen eye for
-            design and performance optimization. Excited to leverage my
-            technical expertise and problem-solving skills to contribute to
-            impactful web solutions.{' '}
+            Passionate Front-End Developer skilled in React.js, Next.js, and
+            TypeScript, with a strong focus on performance, design, and
+            usability. Experienced in building responsive web applications and
+            integrating APIs to enhance functionality. Adept at creating
+            scalable and optimized solutions while ensuring excellent user
+            experience. Seeking to contribute my technical expertise and
+            problem-solving skills to impactful projects.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
