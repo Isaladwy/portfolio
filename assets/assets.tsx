@@ -90,6 +90,18 @@ export const assets = {
 
 export const workData = [
   {
+    title: 'Sneakers Store',
+    description: 'A modern e-commerce web application for sneakers',
+    bgImage: '/work-0.png',
+    link: 'https://shoes-store-tau.vercel.app/',
+  },
+  {
+    title: 'Fast React Pizza',
+    description: 'A modern and responsive pizza ordering web application',
+    bgImage: '/work-3.png',
+    link: 'https://fast-react-pizza-six-kappa.vercel.app/',
+  },
+  {
     title: 'The Wild Oasis Customers',
     description: 'A luxurious hotel reservation platform',
     bgImage: '/work-1.png',
@@ -100,12 +112,6 @@ export const workData = [
     description: 'The Back-end of the hotel that manages cabins & reservations',
     bgImage: '/work-2.png',
     link: 'https://the-wild-oasis-tau-sooty.vercel.app/',
-  },
-  {
-    title: 'Fast React Pizza',
-    description: 'A modern and responsive pizza ordering web application',
-    bgImage: '/work-3.png',
-    link: 'https://fast-react-pizza-six-kappa.vercel.app/',
   },
   {
     title: 'World Wise',
