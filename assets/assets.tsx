@@ -90,7 +90,7 @@ export const assets = {
 
 export const workData = [
   {
-    title: 'Sneakers Store',
+    title: 'Sneakers E-Commerce Store',
     description: 'A modern e-commerce web application for sneakers',
     bgImage: '/work-0.png',
     link: 'https://shoes-store-tau.vercel.app/',
