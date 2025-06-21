@@ -90,6 +90,12 @@ export const assets = {
 
 export const workData = [
   {
+    title: 'Khan Rayhan Buffet',
+    description: 'An interactive buffet website showcasing various dishes',
+    bgImage: '/work-4.png',
+    link: 'https://khanalrayhan.com/buffet2/',
+  },
+  {
     title: 'Sneakers E-Commerce Store',
     description: 'A modern e-commerce web application for sneakers',
     bgImage: '/work-0.png',
@@ -112,12 +118,6 @@ export const workData = [
     description: 'The Back-end of the hotel that manages cabins & reservations',
     bgImage: '/work-2.png',
     link: 'https://the-wild-oasis-tau-sooty.vercel.app/',
-  },
-  {
-    title: 'World Wise',
-    description: 'An innovative web application to explore the world',
-    bgImage: '/work-4.png',
-    link: 'https://worldwise-seven-liard.vercel.app/',
   },
 ];
 
