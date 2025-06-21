@@ -7,7 +7,7 @@ import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
 import firebase from './firebase.png';
-import figma from './figma.png';
+import cursor from './cursor.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
@@ -52,7 +52,7 @@ export const assets = {
   project_icon_dark,
   vscode,
   firebase,
-  figma,
+  cursor,
   git,
   mongodb,
   right_arrow_white,
@@ -172,6 +172,7 @@ export const infoList = [
 ];
 
 export const toolsData = [
+  assets.cursor,
   assets.vscode,
   assets.chatgpt,
   assets.github,
@@ -179,7 +180,6 @@ export const toolsData = [
   assets.supabase,
   assets.git,
   assets.photoshop,
-  assets.figma,
 ];
 
 export const web3forms = {

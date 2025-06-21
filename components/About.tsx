@@ -51,7 +51,7 @@ export default function About({
           className="flex-1 text-center"
         >
           <p className="mb-10  max-w-2xl font-ovo">
-            Passionate Front-End Developer skilled in React.js, Next.js, and
+            Passionate Developer skilled in React.js, Next.js, and
             TypeScript, with a strong focus on performance, design, and
             usability. Experienced in building responsive web applications and
             integrating APIs to enhance functionality. Adept at creating
