@@ -23,9 +23,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth w-auto overflow-x-hidden " >
+    <html lang="en" className="scroll-smooth w-auto overflow-x-hidden ">
+      <head>
+        <link rel="icon" href="/assets/logo_white.png" type="image/png" />
+      </head>
       <body
-        className={`${outfitFont.className} ${ovoFont.className} antialiased leading-8 w-auto overflow-x-hidden dark:bg-darkTheme dark:text-white`} 
+        className={`${outfitFont.className} ${ovoFont.className} antialiased leading-8 w-auto overflow-x-hidden dark:bg-darkTheme dark:text-white`}
       >
         {children}
       </body>
