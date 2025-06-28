@@ -25,7 +25,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth w-auto overflow-x-hidden ">
       <head>
-        <link rel="icon" href="/assets/logo_white.png" type="image/png" />
+        <link
+          rel="icon"
+          href="/logo_white.webp"
+          sizes="132x132"
+          type="image/png"
+        />
       </head>
       <body
         className={`${outfitFont.className} ${ovoFont.className} antialiased leading-8 w-auto overflow-x-hidden dark:bg-darkTheme dark:text-white`}
