@@ -28,7 +28,7 @@ export default function RootLayout({
         <link
           rel="icon"
           href="/logo_white.webp"
-          sizes="132x132"
+          sizes="92x92"
           type="image/png"
         />
       </head>
