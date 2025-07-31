@@ -90,16 +90,16 @@ export const assets = {
 
 export const workData = [
   {
+    title: 'Mega Art with dashboard',
+    description: 'A modern landing page for advertising and monitor renting agency',
+    bgImage: '/work-4.png',
+    link: 'https://mega-art-landingpage.vercel.app/',
+  },
+  {
     title: 'MegaStore E-Commerce Platform',
     description: 'A comprehensive e-commerce platform for various products',
     bgImage: '/work-5.png',
     link: 'https://meggastore-net.vercel.app/',
-  },
-  {
-    title: 'Khan Rayhan Buffet',
-    description: 'An interactive buffet website showcasing various dishes',
-    bgImage: '/work-4.png',
-    link: 'https://khanalrayhan.com/buffet2/',
   },
   {
     title: 'Sneakers E-Commerce Store',
