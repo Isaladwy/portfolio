@@ -96,6 +96,12 @@ export const workData = [
     link: 'https://intercom-landing-page.vercel.app/',
   },
   {
+    title: 'Router Landing Page',
+    description: 'A modern landing page for Solar Router',
+    bgImage: '/work-2.png',
+    link: 'https://router-landing-page.vercel.app/',
+  },
+  {
     title: 'Mega Art with dashboard',
     description:
       'A modern landing page for advertising and monitor renting agency',
@@ -119,12 +125,6 @@ export const workData = [
     description: 'A modern and responsive pizza ordering web application',
     bgImage: '/work-3.png',
     link: 'https://fast-react-pizza-six-kappa.vercel.app/',
-  },
-  {
-    title: 'The Wild Oasis Employees',
-    description: 'The Back-end of the hotel that manages cabins & reservations',
-    bgImage: '/work-2.png',
-    link: 'https://the-wild-oasis-tau-sooty.vercel.app/',
   },
 ];
 
