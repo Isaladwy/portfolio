@@ -90,31 +90,6 @@ export const assets = {
 
 export const workData = [
   {
-    title: 'Intercom Landing Page',
-    description: 'A modern landing page for Intercom systems',
-    bgImage: '/work-1.png',
-    link: 'https://intercom-landing-page.vercel.app/',
-  },
-  {
-    title: 'Router Landing Page',
-    description: 'A modern landing page for Solar Router',
-    bgImage: '/work-2.png',
-    link: 'https://router-landing-page.vercel.app/',
-  },
-  {
-    title: 'Mega Art with dashboard',
-    description:
-      'A modern landing page for advertising and monitor renting agency',
-    bgImage: '/work-4.png',
-    link: 'https://mega-art-landingpage.vercel.app/',
-  },
-  {
-    title: 'MegaStore E-Commerce Platform',
-    description: 'A comprehensive e-commerce platform for various products',
-    bgImage: '/work-5.png',
-    link: 'https://meggastore-net.vercel.app/',
-  },
-  {
     title: 'Sneakers E-Commerce Store',
     description: 'A modern e-commerce web application for sneakers',
     bgImage: '/work-0.png',
