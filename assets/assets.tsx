@@ -90,6 +90,12 @@ export const assets = {
 
 export const workData = [
   {
+    title: 'Hotel Reservation Platform',
+    description: 'A modern Hotel Reservation Platform web application',
+    bgImage: '/hotel.png',
+    link: 'https://the-wild-oasis-website-orpin-eight.vercel.app/',
+  },
+  {
     title: 'Sneakers E-Commerce Store',
     description: 'A modern e-commerce web application for sneakers',
     bgImage: '/work-0.png',
