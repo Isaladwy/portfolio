@@ -90,6 +90,12 @@ export const assets = {
 
 export const workData = [
   {
+    title: 'Umrah Travel Agency',
+    description: 'A modern Umrah Travel Agency web application',
+    bgImage: '/maqasid-al-nour.png',
+    link: 'https://www.maqasidalnour.com/ar/',
+  },
+  {
     title: 'Hotel Reservation Platform',
     description: 'A modern Hotel Reservation Platform web application',
     bgImage: '/hotel.png',
